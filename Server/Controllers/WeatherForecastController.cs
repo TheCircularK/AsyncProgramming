@@ -20,14 +20,21 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet]
-    public IEnumerable<WeatherForecast> Get()
+    public async Task<IEnumerable<WeatherForecast>> Get()
     {
-        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+        Random random = new Random();
+        int delayLength = random.Next(150, 1500);
+        
+        await Task.Delay(delayLength);
+        
+        var forecasts = Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
             Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
             TemperatureC = Random.Shared.Next(-20, 55),
             Summary = Summaries[Random.Shared.Next(Summaries.Length)]
         })
         .ToArray();
+
+        return forecasts;
     }
 }

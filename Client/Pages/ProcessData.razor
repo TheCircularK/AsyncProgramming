@@ -1,0 +1,42 @@
+﻿@page "/process"
+@using AsyncProgramming.Shared
+@using System.Text.Json
+@using System.Text
+@inject HttpClient Http
+
+<PageTitle>Process Data</PageTitle>
+
+<h1>Process Data</h1>
+
+<p role="status">Time Elapsed: @timeElapsed</p>
+
+<button class="btn btn-primary" @onclick="SubmitData">Submit Data</button>
+
+@code {
+    private long timeElapsed = 0;
+
+    private async Task SubmitData()
+    {
+        // Get the forecasts and turn them into something we can post.
+        WeatherForecast[]? forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        string json = JsonSerializer.Serialize(forecasts);
+        StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
+        
+        // Wait for the response
+        var response = await Http.PostAsync("ProcessData", content);
+        Console.WriteLine(response);
+        Console.WriteLine(response.Content);
+        
+        // Process the response
+        string responseBody = await response.Content.ReadAsStringAsync();
+
+        if (long.TryParse(responseBody, out long result))
+        {
+            timeElapsed = result;
+        }
+        else
+        {
+            throw new Exception("Unable to parse the response body as a long integer.");
+        }
+    }
+}

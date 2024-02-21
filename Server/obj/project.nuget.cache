@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9TESQniDqJN/rQI7Cbv5A4yPMWxKQSiw8080YcP5KM21Xams/1wvDypJ7L4MJw4l1+ObM1RDWLWm6G3dsKucVg==",
+  "dgSpecHash": "bQYlxbFuZS8DqkeQoSkUneRpQVK+OR7G86llBxdqDXW/TcnY1+wv0GCK6LvQJKL5d4dAyM4VDz8yIz6iCkbc7A==",
   "success": true,
-  "projectFilePath": "/home/andrew/Dev/BYU/AsyncProgramming/Server/AsyncProgramming.Server.csproj",
+  "projectFilePath": "/home/andrew/Dev/AsyncProgramming/Server/AsyncProgramming.Server.csproj",
   "expectedPackageFiles": [
     "/home/andrew/.nuget/packages/microsoft.aspnetcore.authorization/7.0.15/microsoft.aspnetcore.authorization.7.0.15.nupkg.sha512",
     "/home/andrew/.nuget/packages/microsoft.aspnetcore.components/7.0.15/microsoft.aspnetcore.components.7.0.15.nupkg.sha512",
