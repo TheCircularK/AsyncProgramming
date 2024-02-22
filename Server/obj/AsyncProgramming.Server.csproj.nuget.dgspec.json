@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/andrew/Dev/AsyncProgramming/Server/AsyncProgramming.Server.csproj": {}
+    "/home/andrew/Dev/BYU/AsyncProgramming/Server/AsyncProgramming.Server.csproj": {}
   },
   "projects": {
-    "/home/andrew/Dev/AsyncProgramming/Client/AsyncProgramming.Client.csproj": {
+    "/home/andrew/Dev/BYU/AsyncProgramming/Client/AsyncProgramming.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/andrew/Dev/AsyncProgramming/Client/AsyncProgramming.Client.csproj",
+        "projectUniqueName": "/home/andrew/Dev/BYU/AsyncProgramming/Client/AsyncProgramming.Client.csproj",
         "projectName": "AsyncProgramming.Client",
-        "projectPath": "/home/andrew/Dev/AsyncProgramming/Client/AsyncProgramming.Client.csproj",
+        "projectPath": "/home/andrew/Dev/BYU/AsyncProgramming/Client/AsyncProgramming.Client.csproj",
         "packagesPath": "/home/andrew/.nuget/packages/",
-        "outputPath": "/home/andrew/Dev/AsyncProgramming/Client/obj/",
+        "outputPath": "/home/andrew/Dev/BYU/AsyncProgramming/Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/andrew/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/andrew/Dev/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj": {
-                "projectPath": "/home/andrew/Dev/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj"
+              "/home/andrew/Dev/BYU/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj": {
+                "projectPath": "/home/andrew/Dev/BYU/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj"
               }
             }
           }
@@ -101,14 +101,14 @@
         }
       }
     },
-    "/home/andrew/Dev/AsyncProgramming/Server/AsyncProgramming.Server.csproj": {
+    "/home/andrew/Dev/BYU/AsyncProgramming/Server/AsyncProgramming.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/andrew/Dev/AsyncProgramming/Server/AsyncProgramming.Server.csproj",
+        "projectUniqueName": "/home/andrew/Dev/BYU/AsyncProgramming/Server/AsyncProgramming.Server.csproj",
         "projectName": "AsyncProgramming.Server",
-        "projectPath": "/home/andrew/Dev/AsyncProgramming/Server/AsyncProgramming.Server.csproj",
+        "projectPath": "/home/andrew/Dev/BYU/AsyncProgramming/Server/AsyncProgramming.Server.csproj",
         "packagesPath": "/home/andrew/.nuget/packages/",
-        "outputPath": "/home/andrew/Dev/AsyncProgramming/Server/obj/",
+        "outputPath": "/home/andrew/Dev/BYU/AsyncProgramming/Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/andrew/.nuget/NuGet/NuGet.Config"
@@ -123,11 +123,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/andrew/Dev/AsyncProgramming/Client/AsyncProgramming.Client.csproj": {
-                "projectPath": "/home/andrew/Dev/AsyncProgramming/Client/AsyncProgramming.Client.csproj"
+              "/home/andrew/Dev/BYU/AsyncProgramming/Client/AsyncProgramming.Client.csproj": {
+                "projectPath": "/home/andrew/Dev/BYU/AsyncProgramming/Client/AsyncProgramming.Client.csproj"
               },
-              "/home/andrew/Dev/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj": {
-                "projectPath": "/home/andrew/Dev/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj"
+              "/home/andrew/Dev/BYU/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj": {
+                "projectPath": "/home/andrew/Dev/BYU/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj"
               }
             }
           }
@@ -176,14 +176,14 @@
         }
       }
     },
-    "/home/andrew/Dev/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj": {
+    "/home/andrew/Dev/BYU/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/andrew/Dev/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj",
+        "projectUniqueName": "/home/andrew/Dev/BYU/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj",
         "projectName": "AsyncProgramming.Shared",
-        "projectPath": "/home/andrew/Dev/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj",
+        "projectPath": "/home/andrew/Dev/BYU/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj",
         "packagesPath": "/home/andrew/.nuget/packages/",
-        "outputPath": "/home/andrew/Dev/AsyncProgramming/Shared/obj/",
+        "outputPath": "/home/andrew/Dev/BYU/AsyncProgramming/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/andrew/.nuget/NuGet/NuGet.Config"

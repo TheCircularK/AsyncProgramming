@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/andrew/Dev/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj",
+      "projectUniqueName": "/home/andrew/Dev/BYU/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj",
       "projectName": "AsyncProgramming.Shared",
-      "projectPath": "/home/andrew/Dev/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj",
+      "projectPath": "/home/andrew/Dev/BYU/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj",
       "packagesPath": "/home/andrew/.nuget/packages/",
-      "outputPath": "/home/andrew/Dev/AsyncProgramming/Shared/obj/",
+      "outputPath": "/home/andrew/Dev/BYU/AsyncProgramming/Shared/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/andrew/.nuget/NuGet/NuGet.Config"

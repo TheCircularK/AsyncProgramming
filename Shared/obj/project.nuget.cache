@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Rf2YKrldbpg91sCtcEbaEv0hHzrYRtC3Ds3ctrngCvGeUoWhKHjX16l2iX0nkidMTZj1H52iJz9O9ktdfG/JA==",
+  "dgSpecHash": "91wj0Fn503IrJLPw045M95tyzLuW6oKYpp8uDEYJKTT9aG+RBmihzPpE3DyhPqpkB0di9AQxfSK93ei52BeodQ==",
   "success": true,
-  "projectFilePath": "/home/andrew/Dev/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj",
+  "projectFilePath": "/home/andrew/Dev/BYU/AsyncProgramming/Shared/AsyncProgramming.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -9,24 +9,17 @@ namespace AsyncProgramming.Server.Controllers;
 public class DataProcessingController : ControllerBase
 {
     [HttpPost]
-    public async Task<string> SubmitData(WeatherForecast[] forecasts)
+    public async Task<string> SubmitData([FromBody] WeatherForecast[] forecasts)
     {
         Stopwatch stopwatch = Stopwatch.StartNew();
-
-        List<Task> tasks = new List<Task>();
         
-        foreach (var forecast in forecasts)
-        {
-            tasks.Add(ProcessData(forecast));
-        }
-
-        await Task.WhenAll();
         // Replace this delay with processing data. We'll do this twice.
         await Task.Delay(500);
         
         stopwatch.Stop();
+        string time = stopwatch.ElapsedMilliseconds.ToString();
         
-        return stopwatch.ElapsedMilliseconds.ToString();
+        return time;
     }
 
     private async Task ProcessData(WeatherForecast forecast)

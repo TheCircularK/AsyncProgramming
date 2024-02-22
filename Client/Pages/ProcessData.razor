@@ -8,12 +8,16 @@
 
 <h1>Process Data</h1>
 
-<p role="status">Time Elapsed: @timeElapsed</p>
+@if (!String.IsNullOrEmpty(timeElapsed))
+{
+    <p role="status">Time Elapsed: @timeElapsed milliseconds</p>
+}
+
 
 <button class="btn btn-primary" @onclick="SubmitData">Submit Data</button>
 
 @code {
-    private long timeElapsed = 0;
+    private string timeElapsed = String.Empty;
 
     private async Task SubmitData()
     {
@@ -23,20 +27,11 @@
         StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
         
         // Wait for the response
-        var response = await Http.PostAsync("ProcessData", content);
+        var response = await Http.PostAsync("DataProcessing", content);
         Console.WriteLine(response);
         Console.WriteLine(response.Content);
         
         // Process the response
-        string responseBody = await response.Content.ReadAsStringAsync();
-
-        if (long.TryParse(responseBody, out long result))
-        {
-            timeElapsed = result;
-        }
-        else
-        {
-            throw new Exception("Unable to parse the response body as a long integer.");
-        }
+        timeElapsed = await response.Content.ReadAsStringAsync();
     }
 }

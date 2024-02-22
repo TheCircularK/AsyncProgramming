@@ -10,3 +10,15 @@
 /home/andrew/Dev/AsyncProgramming/Shared/obj/Debug/net7.0/refint/AsyncProgramming.Shared.dll
 /home/andrew/Dev/AsyncProgramming/Shared/obj/Debug/net7.0/AsyncProgramming.Shared.pdb
 /home/andrew/Dev/AsyncProgramming/Shared/obj/Debug/net7.0/ref/AsyncProgramming.Shared.dll
+/home/andrew/Dev/BYU/AsyncProgramming/Shared/bin/Debug/net7.0/AsyncProgramming.Shared.deps.json
+/home/andrew/Dev/BYU/AsyncProgramming/Shared/bin/Debug/net7.0/AsyncProgramming.Shared.dll
+/home/andrew/Dev/BYU/AsyncProgramming/Shared/bin/Debug/net7.0/AsyncProgramming.Shared.pdb
+/home/andrew/Dev/BYU/AsyncProgramming/Shared/obj/Debug/net7.0/AsyncProgramming.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/andrew/Dev/BYU/AsyncProgramming/Shared/obj/Debug/net7.0/AsyncProgramming.Shared.AssemblyInfoInputs.cache
+/home/andrew/Dev/BYU/AsyncProgramming/Shared/obj/Debug/net7.0/AsyncProgramming.Shared.AssemblyInfo.cs
+/home/andrew/Dev/BYU/AsyncProgramming/Shared/obj/Debug/net7.0/AsyncProgramming.Shared.csproj.CoreCompileInputs.cache
+/home/andrew/Dev/BYU/AsyncProgramming/Shared/obj/Debug/net7.0/AsyncProgramming.Shared.sourcelink.json
+/home/andrew/Dev/BYU/AsyncProgramming/Shared/obj/Debug/net7.0/AsyncProgramming.Shared.dll
+/home/andrew/Dev/BYU/AsyncProgramming/Shared/obj/Debug/net7.0/refint/AsyncProgramming.Shared.dll
+/home/andrew/Dev/BYU/AsyncProgramming/Shared/obj/Debug/net7.0/AsyncProgramming.Shared.pdb
+/home/andrew/Dev/BYU/AsyncProgramming/Shared/obj/Debug/net7.0/ref/AsyncProgramming.Shared.dll
